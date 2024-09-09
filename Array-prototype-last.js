@@ -29,3 +29,9 @@ Array.prototype.last = function() {
     return this[this.length - 1];
   }
 };
+
+// or
+
+Array.prototype.last = function() {
+  return this.length ? this[this.length - 1] : -1;
+};
